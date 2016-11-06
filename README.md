@@ -1,6 +1,6 @@
 # Correlation between the fission yeast transcriptome and proteome
 ## Abstract
-The goal of the project is to correlate mRNA levels to protein levels through the time course of meiosis in the fission yeast S.pombe.
+The goal of the project is to correlate mRNA levels to protein levels through the time course of meiosis in the fission yeast *S.pombe*.
 
 ## Data description
 For this project, we have to compare the relative concentration of proteins and mRNA at multiple time points. The Simanis-lab (EPFL) provides a data set of relative protein concentrations and relative mRNA concentrations can be found on the website of the <a href="http://bahlerweb.cs.ucl.ac.uk/projects/sexualdifferentiation/meiosis/">bählerlab</a> (ULC). 
