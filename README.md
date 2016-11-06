@@ -2,8 +2,6 @@
 ## Abstract
 The goal of the project is to compare mRNA levels with protein levels through the time course of meiosis in the fission yeast *S.pombe*. Statistical tests are used to find if the mRNA and proteins relative concentrations are correlated. We expect most of them to be correlated since the mRNA is the precursor of the protein. However the non-correlated entries will give us information about the stability of the proteins. Therefore, the last part of the project is to extract and cluster the non-correlated entries.
 
-The non-correlated entries are then extracted and clustered.
-
 ## Data description
 For this project, we have to compare the relative concentration of proteins and mRNA at multiple time points. The Simanis-lab (EPFL) provides a data set of relative protein concentrations and relative mRNA concentrations can be found on the website of the <a href="http://bahlerweb.cs.ucl.ac.uk/projects/sexualdifferentiation/meiosis/">bählerlab</a> (ULC). 
 
