@@ -16,9 +16,9 @@ The challenging part of the project is the analysis of the data. We need to find
 
 ## Deliverables
 The outcomes of the project are:
-  1) A list of non-correlated entries
-  2) Graphs and an interactive vizualisation tool showing the correlation between protein and mRNA levels for each time point
-  3) A reusable Jupyter notebook which can be used with new data and outputs a CSV file with the non-correlated entries
+  1. A list of non-correlated entries
+  2. Graphs and an interactive vizualisation tool showing the correlation between protein and mRNA levels for each time point
+  3. A reusable Jupyter notebook which can be used with new data and outputs a CSV file with the non-correlated entries
 
 ## Timeplan
 1. Data scraping and wrangling (Week 1)
