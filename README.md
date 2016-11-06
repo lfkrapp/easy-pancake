@@ -1,6 +1,8 @@
 # Correlation between the fission yeast transcriptome and proteome
 ## Abstract
-The goal of the project is to correlate mRNA levels to protein levels through the time course of meiosis in the fission yeast *S.pombe*.
+The goal of the project is to compare mRNA levels with protein levels through the time course of meiosis in the fission yeast *S.pombe*. Statistical tests are used to find if the mRNA and proteins relative concentrations are correlated. We expect most of them to be correlated since the mRNA is the precursor of the protein. However the non-correlated entries will give us information about the stability of the proteins. Therefore, the last part of the project is to extract and cluster the non-correlated entries.
+
+The non-correlated entries are then extracted and clustered.
 
 ## Data description
 For this project, we have to compare the relative concentration of proteins and mRNA at multiple time points. The Simanis-lab (EPFL) provides a data set of relative protein concentrations and relative mRNA concentrations can be found on the website of the <a href="http://bahlerweb.cs.ucl.ac.uk/projects/sexualdifferentiation/meiosis/">bählerlab</a> (ULC). 
@@ -10,7 +12,7 @@ The data from the Simanis-lab (EPFL) is a table of measures for 2978 proteins. F
 The data from the <a href="http://bahlerweb.cs.ucl.ac.uk/projects/sexualdifferentiation/meiosis/">bählerlab</a> (ULC) is a table of measures for 5121 mRNAs. For each mRNA an averaged relative concentration is measured for 8 time points (5121 x 8 data points).
 
 ## Feasibility and Risks
-The data scraping and wrangling part of the project are not too difficult. The data provided by the bählerlab can easily be aquired. Some work needs to be done for the compatibility of the two data sets.
+The data scraping and wrangling part of the project are not too difficult. The data provided by the <a href="http://bahlerweb.cs.ucl.ac.uk/projects/sexualdifferentiation/meiosis/">bählerlab</a> can easily be aquired. Some work needs to be done for the compatibility of the two data sets.
 
 The challenging part of the project is the analysis of the data. We need to find the suitable correlation test and to interpret the results.
 
@@ -23,7 +25,7 @@ The outcomes of the project are:
 ## Timeplan
 1. Data scraping and wrangling (Week 1)
   * Download and process data from <a href="http://bahlerweb.cs.ucl.ac.uk/projects/sexualdifferentiation/meiosis/">bählerlab</a>
-  * Merging data from bählerlab (UCL) and the data provided by Simanis-lab (EPFL)
+  * Merging data from <a href="http://bahlerweb.cs.ucl.ac.uk/projects/sexualdifferentiation/meiosis/">bählerlab</a> (UCL) and the data provided by Simanis-lab (EPFL)
 2. Data analysis (Week 2 to 5)
   * Correlation test
   * Extracting non-correlated entries
